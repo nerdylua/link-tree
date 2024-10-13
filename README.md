@@ -1,2 +1,2 @@
 # link-tree
-## Simple link tree using HTML/CSS
+Simple link tree using HTML/CSS
