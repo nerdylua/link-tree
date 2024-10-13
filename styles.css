@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #111;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.profile {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.photo {
+  margin: 0 auto;
+  border: 4px solid #ff0000; /* Changed to bright red */
+  padding: 4px;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: url("https://avatars.githubusercontent.com/u/150607136?v=4");
+  background-position: center;
+  background-size: cover;
+}
+
+.profile_name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* Button Styles */
+.custom-btn {
+  width: 100%;
+  height: 45px;
+  margin: 12px 0;
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  background: linear-gradient(135deg, #ff6666, #ff0000); /* Changed to red gradient */
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.custom-btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.custom-btn i {
+  margin-right: 8px;
+}
+
+.custom-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  background: linear-gradient(135deg, #cc0000, #ff3333); /* Darker red on hover */
+}
+
+.custom-btn:active {
+  transform: translateY(0);
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+}
